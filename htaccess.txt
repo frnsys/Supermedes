@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^projects/([^/.]+)/?$ /projects/$1.html  [L]
+RewriteRule ^topics/([^/.]+)/?$ /topics/pages/$1.php	[L]
+RewriteRule ^things/([^/.]+)/?$ /pages/$1.php	[L]
+</IfModule>
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /aprk/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /aprk/index.php [L]
+</IfModule>

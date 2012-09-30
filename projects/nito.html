@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>NITO</title>
+	<meta name="description" content="NITO (匿透) is a stenographic tool for encoding and decoding sensitive information into images using “context keys“. It is written in Python and distributed as an application for OSX.">
+	<meta name="author" content="Francis Tseng">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="/css/projects.css">
+
+	<script src="/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body id="nito">
+
+<header>
+	<div class="intro">
+		<img src="/img/projects/nito/nito.png" alt="NITO" title="NITO" />
+		<div class="about">
+			<p class="blurb">A stenographic tool for encoding and decoding sensitive information into images using “context keys“.</p>
+			<a href="/files/nito-1.0.zip" class="download">Download</a>			
+			<p class="summary">NITO is written in Python and distributed as an application for OSX.</p>
+		</div>
+	</div>
+</header>
+
+<div role="main" id="main" class="app">
+	<div class="overview">
+		<figure>
+			<h3>Send secrets in plain sight</h3>
+			<img src="/img/projects/nito/encoded.png" />
+			<figcaption>With NITO, you can encode messages into images such as this one.</figcaption>
+		</figure>
+		<figure>
+			<h3>Lock them with shared knowledge</h3>		
+			<img src="/img/projects/nito/contextkey.png" />
+			<figcaption>NITO's messages are encoded using "context keys", which are shared knowledge of the sender and receiver.</figcaption>
+		</figure>
+		<figure>
+			<h3>Store them as inconspicuous pixels</h3>		
+			<img src="/img/projects/nito/pixel.png" />
+			<figcaption>NITO will store messages in images so that they're indistinguishable from the original. </figcaption>
+		</figure>
+	</div>
+
+	<div class="main-content">
+		<div class="section">	
+			<figure>
+				<img src="/img/projects/nito/encoded.png" width="270" />
+				<figcaption>You can try decoding this image yourself: save the image, then use the key "Deerhaus", and a scope of 2.</figcaption>
+			</figure>
+			<h4>Send secrets in plain sight</h4>			
+			<p>NITO is intended for <em>hidden-in-plain-sight</em> communications. The originally considered context was message boards (forums) that might be monitored or otherwise restrictive. NITO allows the forum participants to trade messages that would normally be censored, without raising the suspicion of forum monitors. The encoded images are so subtly altered from their original images that it is unnoticeable in most cases.</p>
+		</div>
+
+		<div class="section">
+			<figure>
+				<img src="/img/projects/nito/flow.png" />
+				<figcaption>Encode your messages into an image, and lock them with a context key.</figcaption>
+			</figure>
+			<h4>Lock them with shared knowledge</h4>				
+			<p>Text messages are encoded into an image by writing the text data as pixels. The specific patterns of the encoding are based on a keyword(s) chosen by the person transmitting the message. This keyword is the “context key”. The context key is never written down or transmitted, and instead <em>exists in the shared knowledge</em> of the message transmitter and receiver. Some examples of a “context key” would be an inside joke between the transmitter and receiver, or an mundane object that holds special meaning because of a shared experience between the two.</p>
+		</div>
+
+		<div class="section">
+			<figure>
+				<img src="/img/projects/nito/encoded-detail.png" width="800" />
+				<figcaption>Text messages are encoded as hexadecimal colors. Depicted is the first encoded pixel of the message "Hello".</figcaption>		
+			</figure>
+			<h4>Store them as inconspicuous pixels</h4>
+			<p>With most images, the original and the encoded image will be <em>nearly indistinguishable</em>. The best images to use are those that are noisier, without many solid colored surfaces. Images with a lot of solid black, for instance, aren’t a good choice.</p>
+		</div>
+	</div>
+	
+	<footer role="colophon">
+		<p>NITO is released under the Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution-NonCommercial-ShareAlike</a> License (CC BY-NC-SA).</p>
+		Copyright &copy; 2011-2012 <a href="/">Francis Tseng</a>
+	</footer>
+
+</div>
+
+</body>
+</html>
+
+

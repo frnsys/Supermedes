@@ -1,0 +1,99 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>CANVAS LAB</title>
+  <meta name="description" content="HTML5 Canvas Lab - an interface for working with the HTML5 canvas object">
+  <meta name="author" content="Francis Tseng / Ya Don Chow / Deerhaus">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/jqui.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+  <script src="js/libs/jquery-1.7.1.min.js"></script>
+  <script src="js/libs/jquery-ui-1.8.18.custom.min.js"></script>
+  <script src="js/canvaslab.js"></script>
+
+</head>
+
+
+<body onload="draw(rval,bval,gval,orgx,orgy,sides,true);gengrid(10 * window.devicePixelRatio);">  
+
+  <div id="container">
+	<header>CANVAS LAB</header>
+	<div id="left">
+				<div id="canvasplace"></div>
+				<canvas id="grid" width="1000" height="500"></canvas>
+				<canvas id="canvas" width="1000" height="500"></canvas>
+			<div id="sidecontrols">
+				<li id="point0">
+					<h2>Point 0</h2>
+					<input size="3" class="aninput coord" id="origin_x" type="text" value="100" maxlength="3" /><input size="3" class="aninput coord" id="origin_y" type="text" value="185" maxlength="3" />
+					<div class="checkbox"><input type='checkbox' class='setcurve' value='0' id="origin_curve"/> Curve</div>
+					<div id="orig_curve_controls" style="display:none">
+						<input size="3" class="aninput coord" id="orgc1x" type="text" value="100" maxlength="3" style="clear:both" /><input size="3" class="aninput coord" id="orgc1y" type="text" value="100" maxlength="3" /><br />
+						<input size="3" class="aninput coord" id="orgc2x" type="text" value="200" maxlength="3" /><input size="3" class="aninput coord" id="orgc2y" type="text" value="200" maxlength="3" />
+					</div>				
+				</li>
+				<ul>
+					
+				</ul>
+			</div>
+		</div>
+		<div id="inputs">
+
+			<div class="ibox">
+				<h2>Red</h2>
+				<input size="3" class="aninput color-input" id="red" type="text" value="0" maxlength="3" />
+				<div class="slider" id="red-slider"></div>
+
+				<h2>Green</h2>
+				<input size="3" class="aninput color-input" id="green" type="text" value="0" maxlength="3" />
+				<div class="slider" id="green-slider"></div>
+
+				<h2>Blue</h2>
+				<input size="3" class="aninput color-input" id="blue" type="text" value="0" maxlength="3" />
+				<div class="slider" id="blue-slider"></div>
+			</div>
+
+			<div class="ibox">
+				<h2>Sides</h2>
+				<input size="3" class="aninput shape-input" id="sides" type="text" value="4" maxlength="3" />
+				<div class="slider" id="side-slider"></div>
+
+				<h2>Grid Increment</h2>
+				<div class="displayval" id="gridscaleval">10</div>
+				<div class="slider" id="gridscale"></div>
+
+				<div class="checkbox" id="gridcontrols">
+					<input type="checkbox" id="showgrid" value="0" /> Show Grid 
+					<input type="checkbox" id="snapgrid" value="0" /> Snap to Grid</div> 
+				<div class="checkbox"><input type="checkbox" id="showpoints" value="1" checked="true" /> Show Points</div> 
+
+			</div>
+
+			<div id="code" class="ibox">
+				<textarea></textarea>
+				<a href="#" id="hideme">Hide &raquo;</a>								
+				<a href="#" id="generatecode">Generate code</a>
+			</div>
+
+		</div><!-- eo #inputs -->
+		
+	<a href="http://www.yadonchow.com" class="byline"><div id="byline">
+		Designed and developed by Francis Tseng.
+	</div></a>
+
+  </div> <!-- eo #container -->
+
+
+   
+</body>
+</html>
