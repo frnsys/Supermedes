@@ -107,7 +107,7 @@ footer {
 
 footer a,
 footer a:visited {
-	background:#B83535;
+	background:#098CA5;
 	display:inline-block;
 	padding:0.4em 0.3em 0.2em 0.3em;
 
@@ -117,7 +117,7 @@ footer a:visited {
 	transition: all 0.2s ease-in-out;
 }
 footer a:hover {
-	background:#3593B8;
+	background:#BD4457;
 }
 
 a, a:visited, a:hover {
@@ -200,8 +200,8 @@ header {
 	}
 
 .logo {
-	width:100px;
-	height:100px;
+	width:140px;
+	height:140px;
 }
 
 .subtitle {
@@ -326,8 +326,8 @@ header {
  */
 
 #projects {
-	background:#B83535;
-	margin-top:26em;
+	background:#098CA5;
+	margin-top:28em;
 }
 #projects .pattern {
 	background:url(/img/portfolio/bg-projects.png) 50% 0% repeat-x;
@@ -349,7 +349,7 @@ header {
 	}
 
 #work {
-	background:#3593B8;
+	background:#BD4457;
 	margin-top:-1px;
 }
 
