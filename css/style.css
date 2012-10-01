@@ -199,6 +199,18 @@ header {
 			}
 	}
 
+.pillar {
+	position:absolute;
+	top:-3px;
+	width:140px;
+}
+	.pillar-left {
+		left:-70px;
+	}
+	.pillar-right {
+		right:-70px;
+	}
+
 .logo {
 	width:140px;
 	height:140px;
@@ -328,6 +340,8 @@ header {
 #projects {
 	background:#098CA5;
 	margin-top:28em;
+	
+	box-shadow:0 -20px 50px rgba(0,0,0,0.4);
 }
 #projects .pattern {
 	background:url(/img/portfolio/bg-projects.png) 50% 0% repeat-x;
