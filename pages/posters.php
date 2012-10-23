@@ -17,10 +17,10 @@
 				<img src="/img/portfolio/shots/design/allies.jpg">
 			</figure>
 			<figure>
-				<img src="/img/portfolio/shots/design/lightpollution.png">
+				<img src="/img/portfolio/shots/design/bricabrac.png">
 			</figure>
 			<figure>
-				<img src="/img/portfolio/shots/design/bricabrac.png">
+				<img src="/img/portfolio/shots/design/goldenages.jpg">
 			</figure>
 			<figure>
 				<img src="/img/portfolio/shots/design/savages.png">

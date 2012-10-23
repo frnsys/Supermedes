@@ -29,7 +29,7 @@ $(function() {
 	// Opening project pages
 	// Only for non-mobile (mobile is too finicky with fixed positioning)
 	if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) ) {
-		$('.projects li a').live('click', function(e) {
+		$('.projects li a[type!=external]').live('click', function(e) {
 			e.preventDefault();
 			var name = $(this).parent().attr('id');
 			// Prevent scrolling underneath the page

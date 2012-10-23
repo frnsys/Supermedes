@@ -395,7 +395,7 @@ h6 {
 .projects p {
 	text-align:justify;
 	font-size:0.8em;
-	font-weight:100;
+	font-weight:normal;
 }
 .projects li {
 	position:relative;
@@ -443,10 +443,10 @@ h6 {
 	height:60px;
 	margin:2.2em 0 1.8em 0;
 
-	-webkit-background-size:780px 60px;
-	-moz-background-size:780px 60px;
-	-o-background-size:780px 60px;
-	background-size:780px 60px;
+	-webkit-background-size:840px 60px;
+	-moz-background-size:840px 60px;
+	-o-background-size:840px 60px;
+	background-size:840px 60px;
 
 	-webkit-transform:scale(0.9,0.9);
 	-moz-transform:scale(0.9,0.9);
@@ -529,10 +529,10 @@ h6 {
 		only screen and (min-device-pixel-ratio : 3/2) {
 			.icon {
 				background-image:url('/img/icons/icons@2.png');
-					-webkit-background-size:1300px 100px;
-					-moz-background-size:1300px 100px;
-					-o-background-size:1300px 100px;
-					background-size:1300px 100px;
+					-webkit-background-size:1400px 100px;
+					-moz-background-size:1400px 100px;
+					-o-background-size:1400px 100px;
+					background-size:1400px 100px;
 			}
 	}
 
@@ -751,6 +751,10 @@ h6 {
 	#albumart .icon { background-position: -1200px 0; }
 	li#albumart .icon { background-position:-720px 0; }
 	#albumart figure img { max-width:500px; max-height:500px; }
+#teeth {}
+	#teeth .icon { background-position:-1400px 0; }
+	li#teeth .icon { background-position:-780px 0; }
+
 
 
 /*
