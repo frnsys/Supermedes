@@ -88,6 +88,10 @@ body {
 	color:#fff;
 	background:#2C2C2C;
 	min-width:320px;
+
+	/* webkit fix */
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 header,
@@ -398,7 +402,6 @@ h6 {
 	font-weight:normal;
 }
 .projects li {
-	position:relative;
 	display:inline-block;
 	vertical-align:top;
 	background:none !important;
@@ -424,8 +427,6 @@ h6 {
 	position:absolute;
 	top:0;
 	left:0;
-	width:100%;
-	height:100%;
 	z-index:100;
 }
 .projects li:hover {
@@ -439,9 +440,13 @@ h6 {
 		transform:scale(1,1);
 	}
 .projects li .icon {
-	width:60px;
-	height:60px;
+	width:59px;
+	height:59px;
 	margin:2.2em 0 1.8em 0;
+
+	/* webkit fix */
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
 
 	-webkit-background-size:840px 60px;
 	-moz-background-size:840px 60px;
@@ -709,13 +714,13 @@ h6 {
 	#canvaslab .icon { background-position:0 0; }
 #supersuper { background:#000; }
 	#supersuper .icon { background-position:-100px 0;}
-	li#supersuper .icon { background-position:-60px 0;}
+	li#supersuper .icon { background-position:-61px 0;}
 #goldenages { background-image:url('/img/projects/goldenages/background.jpg'); }
 	#goldenages .icon { background-position:-200px 0;}
-	li#goldenages .icon { background-position:-120px 0;}
+	li#goldenages .icon { background-position:-121px 0;}
 #servethepeople { background:#BE0101; }
 	#servethepeople .icon { background-position:-300px 0;}
-	li#servethepeople .icon { background-position:-180px 0;}
+	li#servethepeople .icon { background-position:-181px 0;}
 #deerhaus {
 	background:url('/img/bgs/black_scales@2.png');
 	-moz-background-size:40px 40px;
@@ -723,37 +728,37 @@ h6 {
 	background-size:40px 40px;
 }
 	#deerhaus .icon { background-position:-600px 0;}
-	li#deerhaus .icon { background-position:-360px 0;}
+	li#deerhaus .icon { background-position:-361px 0;}
 #nito { background:#2c2c37; }
 	#nito .icon { background-position:-800px 0; }
-	li#nito .icon { background-position:-480px 0; }
+	li#nito .icon { background-position:-481px 0; }
 #topics { background:#CAC2A7; }
 	#topics .icon { background-position:-1100px 0;}
-	li#topics .icon { background-position:-660px 0;}
+	li#topics .icon { background-position:-661px 0;}
 
 #smartercookie {}
 	#smartercookie .icon { background-position:-400px 0; }
-	li#smartercookie .icon { background-position:-240px 0; }
+	li#smartercookie .icon { background-position:-241px 0; }
 #bowen {}
 	#bowen .icon { background-position:-500px 0; }
-	li#bowen .icon { background-position:-300px 0; }
+	li#bowen .icon { background-position:-301px 0; }
 #myvr {}
 	#myvr .icon { background-position:-700px 0; }
-	li#myvr .icon { background-position:-420px 0; }
+	li#myvr .icon { background-position:-421px 0; }
 #caoker { background:#43a9e4; }
 	#caoker .icon { background-position:-900px 0; }
-	li#caoker .icon { background-position:-540px 0; }
+	li#caoker .icon { background-position:-541px 0; }
 #posters {}
 	#posters .icon { background-position: -1000px 0; }
-	li#posters .icon { background-position:-600px 0; }
+	li#posters .icon { background-position:-601px 0; }
 	#posters figure img { max-width:450px; }
 #albumart {}
 	#albumart .icon { background-position: -1200px 0; }
-	li#albumart .icon { background-position:-720px 0; }
+	li#albumart .icon { background-position:-721px 0; }
 	#albumart figure img { max-width:500px; max-height:500px; }
 #teeth {}
 	#teeth .icon { background-position:-1400px 0; }
-	li#teeth .icon { background-position:-780px 0; }
+	li#teeth .icon { background-position:-781px 0; }
 
 
 
