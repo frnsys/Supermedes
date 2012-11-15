@@ -71,7 +71,7 @@
 		<ul class="projects">
 			<li id="canvaslab">
 				<a href="/things/canvaslab">
-					<div class="icon"></div>
+					<div class="icon" id="lab-icon"></div>
 					<h5>Canvas Lab</h5>
 					<h6>javascript, jQuery, HTML/CSS, canvas, design</h6>
 					<p>An experimental tool providing an Illustrator-like interface for working with shapes in HTML5's canvas element.</p>
@@ -79,7 +79,7 @@
 			</li>
 			<li id="supersuper">
 				<a href="/things/supersuper">
-					<div class="icon"></div>
+					<div class="icon" id="skull-icon"></div>
 					<h5>Super Super</h5>
 					<h6>PHP, mySQL, HTML/CSS</h6>
 					<p>A popular music album leak database I developed and operated in 2009.</p>
@@ -87,7 +87,7 @@
 			</li>
 			<li id="goldenages">
 				<a href="/things/goldenages">
-					<div class="icon"></div>
+					<div class="icon" id="pyramids-icon"></div>
 					<h5>Golden Ages</h5>
 					<h6>music, visuals</h6>
 					<p>A music project from 2009-2011, once featured as Stereogum's "Band to Watch".</p>
@@ -95,7 +95,7 @@
 			</li>
 			<li id="servethepeople">
 				<a href="/things/servethepeople">
-					<div class="icon"></div>
+					<div class="icon" id="bike-icon"></div>
 					<h5>Serve the People</h5>
 					<h6>music video</h6>
 					<p>I starred in the video for Handsome Furs' "Serve the People", from their album <em>Sound Kapital</em> (Sub Pop).</p>
@@ -103,7 +103,7 @@
 			</li>
 			<li id="deerhaus">
 				<a href="/things/deerhaus">
-					<div class="icon"></div>
+					<div class="icon" id="deerhaus-icon"></div>
 					<h5>Deerhaus</h5>
 					<h6>music, visuals, design, frontend</h6>
 					<p>Deerhaus is an international collective of artists, musicians, designers, & programmers.</p>
@@ -111,7 +111,7 @@
 			</li>
 			<li id="nito">
 				<a href="/things/nito">
-					<div class="icon"></div>
+					<div class="icon" id="lens-icon"></div>
 					<h5>NITO</h5>
 					<h6>python</h6>
 					<p>A stenographic tool for encoding and decoding sensitive information into images using "context keys".</p>
@@ -119,7 +119,7 @@
 			</li>
 			<li id="topics">
 				<a href="/things/topics">
-					<div class="icon"></div>
+					<div class="icon" id="mouse-icon"></div>
 					<h5>Topics</h5>
 					<h6>html/css, canvas, javascript, design</h6>
 					<p>An interactive learning resource for interesting knowledge.</p>
@@ -127,7 +127,7 @@
 			</li>
 			<li id="teeth">
 				<a href="/teeth" type="external">
-					<div class="icon"></div>
+					<div class="icon" id="teeth-icon"></div>
 					<h5>Teeth</h5>
 					<h6>ps, frontend, fun</h6>
 					<p>A small recreational project. (Note - very heavy on graphics, so it may take a while to load)</p>
@@ -146,7 +146,7 @@
 		<ul class="projects">
 			<li id="smartercookie">
 				<a href="/things/smartercookie">
-					<div class="icon"></div>
+					<div class="icon" id="lightbulb-icon"></div>
 					<h5>Smarter Cookie</h5>
 					<h6>visual design, branding, logo</h6>
 					<p>Logo design for SmarterCookie, a tool for teachers.</p>
@@ -154,7 +154,7 @@
 			</li>
 			<li id="bowen">
 				<a href="/things/bowen">
-					<div class="icon"></div>
+					<div class="icon" id="graph-icon"></div>
 					<h5>Bowen</h5>
 					<h6>visual design, mobile design</h6>
 					<p>Mobile interface design for a social media analysis app.</p>
@@ -162,7 +162,7 @@
 			</li>
 			<li id="myvr">
 				<a href="/things/myvr">
-					<div class="icon"></div>
+					<div class="icon" id="calendar-icon"></div>
 					<h5>My VR</h5>
 					<h6>visual design, web, interaction design</h6>
 					<p>A rates calendar and calculator for a home rental startup.</p>
@@ -170,7 +170,7 @@
 			</li>
 			<li id="caoker">
 				<a href="/things/caoker">
-					<div class="icon"></div>
+					<div class="icon" id="camera-icon"></div>
 					<h5>Caoker</h5>
 					<h6>frontend, ruby on rails, web design</h6>
 					<p>A bilingual music and video site for Chinese youth.</p>
@@ -178,7 +178,7 @@
 			</li>
 			<li id="albumart">
 				<a href="/things/albumart">
-					<div class="icon"></div>
+					<div class="icon" id="headphones-icon"></div>
 					<h5>Album Art</h5>
 					<h6>visual design</h6>
 					<p>Album art for a variety of bands and musicians.</p>
@@ -186,10 +186,18 @@
 			</li>
 			<li id="posters">
 				<a href="/things/posters">
-					<div class="icon"></div>
+					<div class="icon" id="poster-icon"></div>
 					<h5>Posters</h5>
 					<h6>visual design</h6>
 					<p>Posters for a variety of events and happenings.</p>
+				</a>
+			</li>
+			<li id="pivy">
+				<a href="/things/pivy">
+					<div class="icon" id="meter-icon"></div>
+					<h5>Pivotal Visualizer</h5>
+					<h6>visual & interaction design, backend, node, frontend</h6>
+					<p>A visualizer for monitoring team progress and capacity with Pivotal Tracker.</p>
 				</a>
 			</li>
 		</ul>
@@ -205,7 +213,9 @@
 <script src="/js/libs/jquery-1.8.2.min.js"></script>
 <script src="/js/libs/jquery.waitforimages.js"></script>
 <script src="/js/libs/sonic.js"></script>
+<script src="/js/libs/raphael-min.js"></script>
 <script src="/js/portfolio.js"></script>
+<script src="/js/magic.js"></script>
 
 
 </body>
