@@ -442,10 +442,10 @@ h6 {
 	.no-svg .projects li .icon {
 			width:59px;
 			height:59px;
-		-webkit-background-size:900px 60px;
-		-moz-background-size:900px 60px;
-		-o-background-size:900px 60px;
-		background-size:900px 60px;
+		-webkit-background-size:960px 60px;
+		-moz-background-size:960px 60px;
+		-o-background-size:960px 60px;
+		background-size:960px 60px;
 
 	}
 		@media
@@ -519,10 +519,10 @@ h6 {
 			only screen and (min-device-pixel-ratio : 3/2) {
 				.icon {
 					background-image:url('/img/icons/icons@2.png');
-						-webkit-background-size:1500px 100px;
-						-moz-background-size:1500px 100px;
-						-o-background-size:1500px 100px;
-						background-size:1500px 100px;
+						-webkit-background-size:1600px 100px;
+						-moz-background-size:1600px 100px;
+						-o-background-size:1600px 100px;
+						background-size:1600px 100px;
 				}
 		}
 
@@ -748,6 +748,9 @@ h6 {
 #pivy {}
 	#pivy .icon { background-position:-1400px 0; }
 	li#pivy .icon { background-position:-841px 0; }
+#bicephaly {}
+	#bicephaly .icon { background-position:-1500px 0; }
+	li#bicephaly .icon { background-position:-901px 0; }
 
 
 
