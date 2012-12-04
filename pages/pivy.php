@@ -7,6 +7,7 @@
 			<div class="text">
 				<h2>Pivy</h2>
 				<p>A visualizer for monitoring team progress and capacity with Pivotal Tracker.</p>
+				<a href="/labs/pivy">Visit the Pivy demo</a>
 			</div>
 		</div>
 		<div class="stage">
