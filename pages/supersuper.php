@@ -6,7 +6,8 @@
 			<div class="icon"></div>
 			<div class="text">
 				<h2>Super Super</h2>
-				<p>An album leak database I developed and maintained in 2009 after Sordo DB (temporarily) went offline.</p>
+				<p>A popular album leak database I developed and maintained in 2009 after Sordo DB (temporarily) went offline.</p>
+				<p>It was written primarily in PHP. I eventually took down the site to avoid C&Ds (and because Sordo went online again).</p>
 			</div>
 		</div>
 		<div class="stage">
