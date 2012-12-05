@@ -472,10 +472,13 @@ h6 {
 	position:absolute;
 }
 
-.back {
+.back, .back-to-main {
 	width:40px;
 	height:35px;
 	padding:3em;
+
+	text-indent:-14em;
+	line-height:0;
 
 	-moz-border-radius:0 0 10em 0;
 	-webkit-border-radius:0 0 10em 0;
@@ -502,9 +505,26 @@ h6 {
 	-moz-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-	.back:hover {
+	.back:hover,
+	.back-to-main:hover {
 		opacity:1;
+		width:20em;	
+		text-indent:0em;
+		background-position:84% 40%;
 	}
+	.back-to-main {
+		z-index:10000;
+	}
+		.back-to-main a,
+		.back-to-main a:visited {
+			display:block;
+			position:absolute;
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			padding:2.8em;
+		}
 
 .icon {
 	width:100px;

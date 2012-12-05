@@ -35,6 +35,7 @@ $(function() {
 			// Prevent scrolling underneath the page
 			$('body').css('overflow', 'hidden');
 
+			// Check if the page is already loaded, if not:
 			if ( $('.page[id=' + name + ']').length == 0 ) {
 				$.ajax({
 			    cache: false,
@@ -52,9 +53,14 @@ $(function() {
 			      });
 			    }
 				});
+
+			// If the page is already loaded, just show it
 			} else {
 				showPage( $('.page[id=' + name + ']') );
 			}
+			
+			// Hide back to main button
+			$('.page .back-to-main').hide();
 			return false;
 		});
 	}
@@ -172,7 +178,7 @@ if ( $('.page').length !== 0 ) {
 				$(this).addClass('active');
 
 			})
-			.prepend('<div class="back"></div>');
+			.prepend('<div class="back">back to supermedes</div>');
 
 		spawnControls( $project );
 	}
