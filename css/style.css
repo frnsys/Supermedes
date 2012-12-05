@@ -76,6 +76,7 @@ ul { list-style:none; margin:0; padding:0; }
 }
 
 
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic);
 
 /* ===== Primary Styles ========================================================
    Author: Francis Tseng
@@ -442,10 +443,10 @@ h6 {
 	.no-svg .projects li .icon {
 			width:59px;
 			height:59px;
-		-webkit-background-size:1020px 60px;
-		-moz-background-size:1020px 60px;
-		-o-background-size:1020px 60px;
-		background-size:1020px 60px;
+		-webkit-background-size:1080px 60px;
+		-moz-background-size:1080px 60px;
+		-o-background-size:1080px 60px;
+		background-size:1080px 60px;
 
 	}
 		@media
@@ -539,10 +540,10 @@ h6 {
 			only screen and (min-device-pixel-ratio : 3/2) {
 				.icon {
 					background-image:url('/img/icons/icons@2.png');
-						-webkit-background-size:1700px 100px;
-						-moz-background-size:1700px 100px;
-						-o-background-size:1700px 100px;
-						background-size:1700px 100px;
+						-webkit-background-size:1800px 100px;
+						-moz-background-size:1800px 100px;
+						-o-background-size:1800px 100px;
+						background-size:1800px 100px;
 				}
 		}
 
@@ -621,6 +622,8 @@ h6 {
 		display:inline-block;
 		margin-bottom:1em;
 		margin-right:1em;
+		font-family: 'Gentium Book Basic', 'Georgia', serif;
+		font-style:italic;
 	}
 	.text a:hover { text-decoration: underline; }
 	.text a:before {
@@ -774,6 +777,9 @@ h6 {
 #rzza {}
 	#rzza .icon { background-position:-1600px 0; }
 	li#rzza .icon { background-position:-961px 0; }
+#wikidigest {}
+	#wikidigest .icon { background-position:-1700px 0; }
+	li#wikidigest .icon { background-position:-1021px 0; }
 
 
 
@@ -782,6 +788,7 @@ h6 {
  * Fonts																																																 Fonts
  *============================================================================================================
  */
+
 
 /*
  * The fonts included are copyrighted by the vendor listed below.
