@@ -378,7 +378,7 @@ header {
 	}
 
 #work {
-	background:#562C8B;
+	background:#798B9E;
 	margin-top:-1px;
 }
 
@@ -405,7 +405,7 @@ h6 {
 .projects li {
 	display:inline-block;
 	vertical-align:top;
-	background:none !important;
+	/*background:rgba(0,0,0,0.1) !important;*/
 	text-align:center;
 	padding:1em;
 	margin-bottom:6em;
@@ -422,6 +422,8 @@ h6 {
 	-o-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+
+	box-shadow:3px 3px rgba(0,0,0,0.1);
 }
 .projects a {
 	display:block;
@@ -430,12 +432,12 @@ h6 {
 	z-index:100;
 }
 .projects li:hover {
-	background:rgba(0,0,0,0.1) !important;
+	/*background:rgba(0,0,0,0.2) !important;*/
 }
 .projects li .icon {
 	width:70px;
 	height:70px;
-	margin:2.2em 0 1.8em 0;
+	margin:2.2em 0 3.2em 0;
 }
 	.svg .projects li .icon {
 		background-image:none;
@@ -721,9 +723,11 @@ h6 {
 #canvaslab { background:#25CA8A; }
 	#canvaslab .icon { background-position:0 0; }
 #supersuper { background:#000; }
+	li#supersuper { background:#222; }
 	#supersuper .icon { background-position:-100px 0;}
 	li#supersuper .icon { background-position:-61px 0;}
 #goldenages { background-image:url('/img/projects/goldenages/background.jpg'); }
+	li#goldenages { background: #D15510; }
 	#goldenages .icon { background-position:-200px 0;}
 	li#goldenages .icon { background-position:-121px 0;}
 #servethepeople { background:#BE0101; }
@@ -735,6 +739,7 @@ h6 {
 	-webkit-background-size:40px 40px;
 	background-size:40px 40px;
 }
+	li#deerhaus { background:#0070FF; }
 	#deerhaus .icon { background-position:-600px 0;}
 	li#deerhaus .icon { background-position:-361px 0; margin-left:15px; }
 	.no-svg li#deerhaus .icon { margin-left:0; }
@@ -745,39 +750,39 @@ h6 {
 	#topics .icon { background-position:-1100px 0;}
 	li#topics .icon { background-position:-661px 0;}
 
-#smartercookie {}
+li#smartercookie { background:#DDDD5F; }
 	#smartercookie .icon { background-position:-400px 0; }
 	li#smartercookie .icon { background-position:-241px 0; }
-#bowen {}
+li#bowen { background:#FCA1B1; }
 	#bowen .icon { background-position:-500px 0; }
 	li#bowen .icon { background-position:-301px 0; }
-#myvr {}
+li#myvr { background:#4343C5; }
 	#myvr .icon { background-position:-700px 0; }
 	li#myvr .icon { background-position:-421px 0; }
 #caoker { background:#43a9e4; }
 	#caoker .icon { background-position:-900px 0; }
 	li#caoker .icon { background-position:-541px 0; }
-#posters {}
+li#posters { background:#068D8D; }
 	#posters .icon { background-position: -1000px 0; }
 	li#posters .icon { background-position:-601px 0; }
 	#posters figure img { max-width:450px; }
-#albumart {}
+li#albumart { background:#AAA; }
 	#albumart .icon { background-position: -1200px 0; }
 	li#albumart .icon { background-position:-721px 0; }
 	#albumart figure img { max-width:500px; max-height:500px; }
-#teeth {}
+#teeth { background: #EE9C06; }
 	#teeth .icon { background-position:-1300px 0; }
 	li#teeth .icon { background-position:-781px 0; }
-#pivy {}
+#pivy { background:#5D51A8; }
 	#pivy .icon { background-position:-1400px 0; }
 	li#pivy .icon { background-position:-841px 0; }
-#bicephaly {}
+li#bicephaly { background:#E79072; }
 	#bicephaly .icon { background-position:-1500px 0; }
 	li#bicephaly .icon { background-position:-901px 0; }
-#rzza {}
+li#rzza { background:#812E81; }
 	#rzza .icon { background-position:-1600px 0; }
 	li#rzza .icon { background-position:-961px 0; }
-#wikidigest {}
+li#wikidigest { background:#10C9D1; }
 	#wikidigest .icon { background-position:-1700px 0; }
 	li#wikidigest .icon { background-position:-1021px 0; }
 
