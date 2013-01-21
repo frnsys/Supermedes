@@ -720,17 +720,26 @@ h6 {
  *============================================================================================================
  */
 
-#canvaslab { background:#25CA8A; }
+.projects li {
+	border-style: solid;
+	border-width: 6px;
+}
+
+#canvaslab { background:#25CA8A;
+						 border-color:  #39D699 #1AB87A #1AB87A #39D699; }
 	#canvaslab .icon { background-position:0 0; }
 #supersuper { background:#000; }
-	li#supersuper { background:#222; }
+	li#supersuper { background:#222;
+									border-color:  #2A2A2A #181818 #181818 #2A2A2A; }
 	#supersuper .icon { background-position:-100px 0;}
 	li#supersuper .icon { background-position:-61px 0;}
 #goldenages { background-image:url('/img/projects/goldenages/background.jpg'); }
-	li#goldenages { background: #D15510; }
+	li#goldenages { background: #D15510;
+									border-color: #D86B2E #BE5013 #BE5013 #D86B2E; }
 	#goldenages .icon { background-position:-200px 0;}
 	li#goldenages .icon { background-position:-121px 0;}
-#servethepeople { background:#BE0101; }
+#servethepeople { background:#BE0101;
+									border-color: #CC2323 #AA0404 #AA0404 #CC2323; }
 	#servethepeople .icon { background-position:-300px 0;}
 	li#servethepeople .icon { background-position:-181px 0;}
 #deerhaus {
@@ -739,50 +748,64 @@ h6 {
 	-webkit-background-size:40px 40px;
 	background-size:40px 40px;
 }
-	li#deerhaus { background:#0070FF; }
+	li#deerhaus { background:#0070FF;
+								border-color: #1F7EF7 #036AEE #036AEE #1F7EF7;}
 	#deerhaus .icon { background-position:-600px 0;}
 	li#deerhaus .icon { background-position:-361px 0; margin-left:15px; }
 	.no-svg li#deerhaus .icon { margin-left:0; }
-#nito { background:#2c2c37; }
+#nito { background:#2c2c37;}
+	li#nito { border-color:#3A3A3A #25252E #25252E #3A3A3A; }
 	#nito .icon { background-position:-800px 0; }
 	li#nito .icon { background-position:-481px 0; }
-#topics { background:#CAC2A7; }
+#topics { background:#CAC2A7;
+					border-color:#DBD2B6 #BDB393 #BDB393 #DBD2B6; }
 	#topics .icon { background-position:-1100px 0;}
 	li#topics .icon { background-position:-661px 0;}
 
-li#smartercookie { background:#DDDD5F; }
+li#smartercookie { background:#DDDD5F;
+									 border-color:#E7E771 #CECE52 #CECE52 #E7E771;}
 	#smartercookie .icon { background-position:-400px 0; }
 	li#smartercookie .icon { background-position:-241px 0; }
-li#bowen { background:#FCA1B1; }
+li#bowen { background:#FCA1B1;
+					 border-color:#FAB7C3 #DF98A5 #DF98A5 #FAB7C3; }
 	#bowen .icon { background-position:-500px 0; }
 	li#bowen .icon { background-position:-301px 0; }
-li#myvr { background:#4343C5; }
+li#myvr { background:#4343C5;
+					border-color:#5F5FD3 #4040AC #4040AC #5F5FD3; }
 	#myvr .icon { background-position:-700px 0; }
 	li#myvr .icon { background-position:-421px 0; }
-#caoker { background:#43a9e4; }
+#caoker { background:#43a9e4;
+					border-color:#56B8F1 #3598D1 #3598D1 #56B8F1; }
 	#caoker .icon { background-position:-900px 0; }
 	li#caoker .icon { background-position:-541px 0; }
-li#posters { background:#068D8D; }
+li#posters { background:#068D8D;
+						 border-color:#0E9696 #0D8585 #0D8585 #0E9696; }
 	#posters .icon { background-position: -1000px 0; }
 	li#posters .icon { background-position:-601px 0; }
 	#posters figure img { max-width:450px; }
-li#albumart { background:#AAA; }
+li#albumart { background:#AAA;
+							border-color:#BBB #999 #999 #BBB; }
 	#albumart .icon { background-position: -1200px 0; }
 	li#albumart .icon { background-position:-721px 0; }
 	#albumart figure img { max-width:500px; max-height:500px; }
-#teeth { background: #EE9C06; }
+#teeth { background: #EE9C06;
+				 border-color: #F5B239 #DD9107 #DD9107 #F5B239; }
 	#teeth .icon { background-position:-1300px 0; }
 	li#teeth .icon { background-position:-781px 0; }
-#pivy { background:#5D51A8; }
+#pivy { background:#5D51A8;
+				border-color:#6A5FB3 #554AA0 #554AA0 #6A5FB3; }
 	#pivy .icon { background-position:-1400px 0; }
 	li#pivy .icon { background-position:-841px 0; }
-li#bicephaly { background:#E79072; }
+li#bicephaly { background:#E79072;
+							 border-color:#F0A084 #DA8567 #DA8567 #F0A084; }
 	#bicephaly .icon { background-position:-1500px 0; }
 	li#bicephaly .icon { background-position:-901px 0; }
-li#rzza { background:#812E81; }
+li#rzza { background:#812E81;
+					border-color:#914391 #772977 #772977 #914391; }
 	#rzza .icon { background-position:-1600px 0; }
 	li#rzza .icon { background-position:-961px 0; }
-li#wikidigest { background:#10C9D1; }
+li#wikidigest { background:#10C9D1;
+								border-color:#2BD8E0 #0CBCC4 #0CBCC4 #2BD8E0; }
 	#wikidigest .icon { background-position:-1700px 0; }
 	li#wikidigest .icon { background-position:-1021px 0; }
 
