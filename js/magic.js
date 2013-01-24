@@ -1,4 +1,4 @@
-// Author: Francis Tseng ( supermedes.com / @supermedes )
+// Author: Francis Tseng ( supermedes.com / @frnsys )
 
 $(function() {
 
