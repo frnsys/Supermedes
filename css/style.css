@@ -169,14 +169,10 @@ h4 {
  *============================================================================================================
  */
 header {
-	padding:19em 2em 4em 2em;
+	padding:3em 2em 4em 2em;
 	text-align:center;
 	background:#e02929;
 	max-width:none;
-	position:absolute;
-	height:28em;
-	z-index:1;
-	top:0;
 }
 
 .pillar {
@@ -202,32 +198,16 @@ header {
 	}
 
 .sword {
-	width:100%;
-	position:fixed;
-	left:0;
-	top:3em;
-	z-index:-1;
+	display:block;
+	margin:0 auto;
+	width:150px;
 }
-	.sword img {
-		width:150px;
-	}
-.rock {
-	position:absolute;
-	width:100%;
-	z-index:10;
-	left:0;
-	bottom:0;
-	text-align:center;
-}
-	.rock img {
-		width:240px;
-	}
 
 .subtitle {
 	font-family:'Gibson';
 	font-size:0.8em;
 	text-transform:uppercase;
-	margin:0.5em 0;
+	margin:2em 0 0.5em 0;
 	display:inline-block;
 }
 .blurb {
@@ -322,7 +302,6 @@ header {
 		top:auto;
 		width:100%;
 		margin-top:0.5em;
-		z-index:-1;
 		visibility:hidden;
 
 		opacity:0;
@@ -346,8 +325,6 @@ header {
 
 #projects {
 	background:#f8f8f8;
-	margin-top:26em;
-	z-index:20;
 }
 	#projects h3,
 	#projects h4 {

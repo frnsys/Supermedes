@@ -11,22 +11,6 @@ $(function() {
 	  }, 0);
 	});
 	
-	$(window).scroll( function() {
-		if ( $(window).scrollTop() >= 100 && !stuck ) {
-			$(".sword").css({
-				position: "absolute",
-				top: $(window).scrollTop() + parseInt($(".sword").css("top"), 10) + "px"
-			});
-			stuck = true;
-		} else if ( $(window).scrollTop() < 125 ) {
-			$(".sword").css({
-				position: "fixed",
-				top: "3em"
-			});
-			stuck = false;
-		}
-	});
-
 
 	// ======== Project Pages ===============================
 
