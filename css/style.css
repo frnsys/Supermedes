@@ -76,15 +76,13 @@ ul { list-style:none; margin:0; padding:0; }
 }
 
 
-@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic);
-
 /* ===== Primary Styles ========================================================
    Author: Francis Tseng
 	 URL: supermedes.com
    ========================================================================== */
 
 body {
-	font-family:'Polaris', 'Gibson', Helvetica, Arial, sans-serif;
+	font-family:'prenton', 'Gibson', Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	color:#fff;
 	background:#101010;
@@ -131,12 +129,12 @@ a, a:visited, a:hover {
 }
 
 h1 {
-	font-family: "Brandon Grotesque", "sans-serif";
+	font-family: "brandon-grotesque", "Brandon Grotesque", "sans-serif";
 	margin-bottom:0;
 	font-size:1.6em;
 }
 h3 {
-	font-family: "Brandon Grotesque", "sans-serif";
+	font-family: "brandon-grotesque", "Brandon Grotesque", "sans-serif";
 	text-transform:uppercase;
 	font-size:1.4em;
 	margin-bottom:0;
@@ -144,7 +142,7 @@ h3 {
 h4 {
 	font-style:italic;
 	font-weight:normal;
-	font-family:'Georgia';
+	font-family: 'Georgia';
 	font-size:0.75em;
 	margin:0.4em 0 1em 0;
 	color:rgba(255,255,255,0.8);
@@ -344,7 +342,7 @@ h5 {
 }
 h6 {
 	font-weight:normal;
-	font-family:'Georgia';
+	font-family: 'Georgia';
 	font-style:italic;
 	color:rgba(255,255,255,0.8);
 	margin:0.5em 0 0 0;
@@ -565,8 +563,7 @@ h6 {
 	}
 
 .text h2 {
-	font-family: 'Polaris';
-	font-weight:100;
+	font-family: "prenton", "sans-serif";
 	font-size:1.4em;
 	text-transform:uppercase;
 }
@@ -577,7 +574,7 @@ h6 {
 		display:inline-block;
 		margin-bottom:1em;
 		margin-right:1em;
-		font-family: 'Gentium Book Basic', 'Georgia', serif;
+		font-family: 'Georgia', serif;
 		font-style:italic;
 	}
 	.text a:hover { text-decoration: underline; }
@@ -813,41 +810,6 @@ li#wikidigest { background:#10C9D1;
     font-weight: 100;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Polaris';
-    src: url('/font/polaris/polaris_v2_bold.eot');
-    src: url('/font/polaris/polaris_v2_bold.eot?#iefix') format('embedded-opentype'),
-         url('/font/polaris/polaris_v2_bold.woff') format('woff'),
-         url('/font/polaris/polaris_v2_bold.ttf') format('truetype'),
-         url('/font/polaris/polaris_v2_bold.svg#Polaris') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Polaris';
-    src: url('/font/polaris/polaris_v2_light.eot');
-    src: url('/font/polaris/polaris_v2_light.eot?#iefix') format('embedded-opentype'),
-         url('/font/polaris/polaris_v2_light.woff') format('woff'),
-         url('/font/polaris/polaris_v2_light.ttf') format('truetype'),
-         url('/font/polaris/polaris_v2_light.svg#Polaris') format('svg');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Polaris';
-    src: url('/font/polaris/polaris_v2_book.eot');
-    src: url('/font/polaris/polaris_v2_book.eot?#iefix') format('embedded-opentype'),
-         url('/font/polaris/polaris_v2_book.woff') format('woff'),
-         url('/font/polaris/polaris_v2_book.ttf') format('truetype'),
-         url('/font/polaris/polaris_v2_book.svg#Polaris') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-
 
 
 
