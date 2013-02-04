@@ -1,5 +1,6 @@
 $(function() {
-	var index = 0;
+	var index = 0
+		, stuck = false;
 
 	// Hide status bar on iOS
 	window.addEventListener("load",function() {
@@ -9,19 +10,22 @@ $(function() {
 	    window.scrollTo(0, 1);
 	  }, 0);
 	});
-
-	// Scrolling behaviors
-	if ( $('.logo').length !== 0 ) {
-		var	logoThresh = $('.logo').position().top + $('.logo').height();
-		$(window).scroll( function() {
-			var scroll = $(window).scrollTop();
-			if ( scroll > $('#projects').offset().top ) {
-				$('.top').hide();
-			} else {
-				$('.top').show();
-			}
-		});
-	}
+	
+	$(window).scroll( function() {
+		if ( $(window).scrollTop() >= 100 && !stuck ) {
+			$(".sword").css({
+				position: "absolute",
+				top: $(window).scrollTop() + parseInt($(".sword").css("top"), 10) + "px"
+			});
+			stuck = true;
+		} else if ( $(window).scrollTop() < 125 ) {
+			$(".sword").css({
+				position: "fixed",
+				top: "3em"
+			});
+			stuck = false;
+		}
+	});
 
 
 	// ======== Project Pages ===============================

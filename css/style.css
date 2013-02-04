@@ -11,8 +11,8 @@ html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
-::-moz-selection { background: #0ea2d1; color: #fff; text-shadow: none; }
-::selection { background: #0ea2d1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #34DFC3; color: #fff; text-shadow: none; }
+::selection { background: #34DFC3; color: #fff; text-shadow: none; }
 
 a { color: #00e; }
 a:visited { color: #551a8b; }
@@ -87,7 +87,7 @@ body {
 	font-family:'Polaris', 'Gibson', Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	color:#fff;
-	background:#2C2C2C;
+	background:#101010;
 	min-width:320px;
 
 	/* webkit fix */
@@ -98,8 +98,8 @@ body {
 header,
 section,
 footer {
-	max-width:1200px;
 	width:100%;
+	max-width:1200px;
 	margin:0 auto;
 	text-align:center;
 	padding:2em;
@@ -112,7 +112,7 @@ footer {
 
 footer a,
 footer a:visited {
-	background:#098CA5;
+	background:#11A38B;
 	display:inline-block;
 	padding:0.4em 0.3em 0.2em 0.3em;
 
@@ -122,7 +122,7 @@ footer a:visited {
 	transition: all 0.2s ease-in-out;
 }
 footer a:hover {
-	background:#BD4457;
+	background:#2A66FF;
 }
 
 a, a:visited, a:hover {
@@ -131,13 +131,14 @@ a, a:visited, a:hover {
 }
 
 h1 {
-	font-family: 'Tarantula';
+	font-family: "Brandon Grotesque", "sans-serif";
 	margin-bottom:0;
 	font-size:1.6em;
 }
 h3 {
-	font-family: 'Tarantula';
-	font-size:1.6em;
+	font-family: "Brandon Grotesque", "sans-serif";
+	text-transform:uppercase;
+	font-size:1.4em;
 	margin-bottom:0;
 }
 h4 {
@@ -168,41 +169,15 @@ h4 {
  *============================================================================================================
  */
 header {
-	position:fixed;
-	top:0;
-	left:0;
-	max-width:none;
-	z-index:-1;
-	padding:3em 2em 4em 2em;
+	padding:19em 2em 4em 2em;
 	text-align:center;
-
-	background:url('/img/bgs/escheresque_@2.png');
-	-moz-background-size:46px 29px;
-	-webkit-background-size:46px 29px;
-	-o-background-size:46px 29px;
-	background-size:46px 29px;
-}
-
-.top {
-	background:url(/img/portfolio/bg-top.png) 50% 100% repeat-x;
-	width:100%;
-	height:2em;
-	position:fixed;
+	background:#e02929;
+	max-width:none;
+	position:absolute;
+	height:28em;
+	z-index:1;
 	top:0;
-	left:0;
-	z-index:100;
 }
-	@media
-		only screen and (-webkit-min-device-pixel-ratio : 1.5),
-		only screen and (min-device-pixel-ratio : 3/2) {
-			.top {
-				background-image:url('/img/portfolio/bg-top@2.png');
-				-webkit-background-size:600px 42px;
-				-moz-background-size:600px 42px;
-				-o-background-size:600px 42px;
-				background-size:600px 42px;
-			}
-	}
 
 .pillar {
 	position:absolute;
@@ -226,10 +201,27 @@ header {
 		right:0;
 	}
 
-.logo {
-	width:140px;
-	height:140px;
+.sword {
+	width:100%;
+	position:fixed;
+	left:0;
+	top:3em;
+	z-index:-1;
 }
+	.sword img {
+		width:150px;
+	}
+.rock {
+	position:absolute;
+	width:100%;
+	z-index:10;
+	left:0;
+	bottom:0;
+	text-align:center;
+}
+	.rock img {
+		width:240px;
+	}
 
 .subtitle {
 	font-family:'Gibson';
@@ -353,33 +345,17 @@ header {
  */
 
 #projects {
-	background:#098CA5;
-	margin-top:28em;
-	
-	box-shadow:0 -20px 50px rgba(0,0,0,0.4);
+	background:#f8f8f8;
+	margin-top:26em;
+	z-index:20;
 }
-#projects .pattern {
-	background:url(/img/portfolio/bg-projects.png) 50% 0% repeat-x;
-	height:42px;
-	width:100%;
-	margin-top:-42px;
-	position:absolute;
-}
-	@media
-		only screen and (-webkit-min-device-pixel-ratio : 1.5),
-		only screen and (min-device-pixel-ratio : 3/2) {
-			#projects .pattern {
-				background-image:url('/img/portfolio/bg-projects@2.png');
-					-webkit-background-size:600px 42px;
-					-moz-background-size:600px 42px;
-					-o-background-size:600px 42px;
-					background-size:600px 42px;
-			}
+	#projects h3,
+	#projects h4 {
+		color:#111;
 	}
 
 #work {
-	background:#798B9E;
-	margin-top:-1px;
+	background:#1B1F2C;
 }
 
 h5 {
@@ -891,34 +867,6 @@ li#wikidigest { background:#10C9D1;
     font-weight: normal;
     font-style: normal;
 }
-
-/*
-Font: 		Tarantula
-Style: 		Regular
-URL: 		http://www.youworkforthem.com/product.php?sku=T2132
-Foundry: 	Red Rooster
-Foundry: 	http://www.youworkforthem.com/designer/261/red-rooster
-Copyright:	Copyright (c) 2000, Rabbit Reproductions Typefoundry. All rights reserved. Data Copyright (c) 2000 dtpTypes Limited.
-Version: 	1.1
-Created:	September 26, 2012
-License: 	http://www.youworkforthem.com/font-license 
-License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
-			WebFont license rules. All other parties are strictly restricted 
-			from using the WebFonts(s) listed without a purchased license. 
-			All details above must always remain unaltered and visible in your CSS.
-*/
-
-@font-face {
-	font-family: 'Tarantula';
-	src: url('/font/tarantula/tarantulascript-rr-light.eot');
-	src: url('/font/tarantula/tarantulascript-rr-light.eot?#iefix') format('embedded-opentype'),
-	     url('/font/tarantula/tarantulascript-rr-light.woff') format('woff'),
-	     url('/font/tarantula/tarantulascript-rr-light.ttf') format('truetype'),
-	     url('/font/tarantula/tarantulascript-rr-light.svg#ywftsvg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 
 
 
