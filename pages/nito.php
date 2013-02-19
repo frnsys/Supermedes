@@ -6,7 +6,7 @@
 			<div class="icon"></div>
 			<div class="text">
 				<h2>NITO</h2>
-				<p>A stenographic tool for encoding and decoding sensitive information into images using "context keys".</p>
+				<p>A steganographic tool for encoding and decoding sensitive information into images using "context keys".</p>
 				<a href="/projects/nito">Visit project page</a>
 				<a href="/files/nito.zip" class="download">Download NITO</a>
 			</div>
