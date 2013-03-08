@@ -205,8 +205,8 @@ header {
 	font-family:'Gibson';
 	font-size:0.8em;
 	text-transform:uppercase;
-	margin:2em 0 0.5em 0;
-	display:inline-block;
+	margin:1em 0 0 0;
+	display:block;
 }
 .blurb {
 	margin:1em 0 2em 0;
