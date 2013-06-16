@@ -758,6 +758,22 @@ li#wikidigest { background:#10C9D1;
 								border-color:#2BD8E0 #0CBCC4 #0CBCC4 #2BD8E0; }
 	#wikidigest .icon { background-position:-1700px 0; }
 	li#wikidigest .icon { background-position:-1021px 0; }
+li#parrott { background:#014E6D;
+								border-color:#096185 #024058 #024058 #096185; }
+	#parrott .icon { background-position:-1700px 0; }
+	li#parrott .icon { background-position:-1021px 0; }
+li#stocker { background:#00C467;
+								border-color:#05D572 #03B460 #03B460 #05D572; }
+	#stocker .icon { background-position:-1700px 0; }
+	li#stocker .icon { background-position:-1021px 0; }
+li#observer { background:#CD1328;
+								border-color:#DF263A #BD0D21 #BD0D21 #DF263A; }
+	#observer .icon { background-position:-1700px 0; }
+	li#observer .icon { background-position:-1021px 0; }
+li#alreadyalive { background:#1B1B1B;
+								border-color:#222222 #151515 #151515 #222222; }
+	#alreadyalive .icon { background-position:-1700px 0; }
+	li#alreadyalive .icon { background-position:-1021px 0; }
 
 
 
