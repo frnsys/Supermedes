@@ -396,10 +396,10 @@ h6 {
 	.no-svg .projects li .icon {
 			width:59px;
 			height:59px;
-		-webkit-background-size:1080px 60px;
-		-moz-background-size:1080px 60px;
-		-o-background-size:1080px 60px;
-		background-size:1080px 60px;
+		-webkit-background-size:1380px 60px;
+		-moz-background-size:1380px 60px;
+		-o-background-size:1380px 60px;
+		background-size:1380px 60px;
 
 	}
 		@media
@@ -493,10 +493,10 @@ h6 {
 			only screen and (min-device-pixel-ratio : 3/2) {
 				.icon {
 					background-image:url('/img/icons/icons@2.png');
-						-webkit-background-size:1800px 100px;
-						-moz-background-size:1800px 100px;
-						-o-background-size:1800px 100px;
-						background-size:1800px 100px;
+						-webkit-background-size:2300px 100px;
+						-moz-background-size:2300px 100px;
+						-o-background-size:2300px 100px;
+						background-size:2300px 100px;
 				}
 		}
 
@@ -758,18 +758,18 @@ li#wikidigest { background:#10C9D1;
 								border-color:#2BD8E0 #0CBCC4 #0CBCC4 #2BD8E0; }
 	#wikidigest .icon { background-position:-1700px 0; }
 	li#wikidigest .icon { background-position:-1021px 0; }
+li#stocker { background:#00C467;
+								border-color:#05D572 #03B460 #03B460 #05D572; }
+	#stocker .icon { background-position:-1800px 0; }
+	li#stocker .icon { background-position:-1081px 0; }
+li#observer { background:#CD1328;
+								border-color:#DF263A #BD0D21 #BD0D21 #DF263A; }
+	#observer .icon { background-position:-1900px 0; }
+	li#observer .icon { background-position:-1141px 0; }
 li#parrott { background:#014E6D;
 								border-color:#096185 #024058 #024058 #096185; }
 	#parrott .icon { background-position:-1700px 0; }
 	li#parrott .icon { background-position:-1021px 0; }
-li#stocker { background:#00C467;
-								border-color:#05D572 #03B460 #03B460 #05D572; }
-	#stocker .icon { background-position:-1700px 0; }
-	li#stocker .icon { background-position:-1021px 0; }
-li#observer { background:#CD1328;
-								border-color:#DF263A #BD0D21 #BD0D21 #DF263A; }
-	#observer .icon { background-position:-1700px 0; }
-	li#observer .icon { background-position:-1021px 0; }
 li#alreadyalive { background:#1B1B1B;
 								border-color:#222222 #151515 #151515 #222222; }
 	#alreadyalive .icon { background-position:-1700px 0; }
