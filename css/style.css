@@ -774,7 +774,10 @@ li#alreadyalive { background:#1B1B1B;
 								border-color:#222222 #151515 #151515 #222222; }
 	#alreadyalive .icon { background-position:-1700px 0; }
 	li#alreadyalive .icon { background-position:-1021px 0; }
-
+#futora { background:#677074;
+								border-color:#777E81 #4A5255 #4A5255 #777E81; }
+	#futora .icon { background-position:-1700px 0; }
+	li#futora .icon { background-position:-1021px 0; }
 
 
 /*
