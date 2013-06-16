@@ -768,16 +768,16 @@ li#observer { background:#CD1328;
 	li#observer .icon { background-position:-1141px 0; }
 li#parrott { background:#014E6D;
 								border-color:#096185 #024058 #024058 #096185; }
-	#parrott .icon { background-position:-1700px 0; }
-	li#parrott .icon { background-position:-1021px 0; }
-li#alreadyalive { background:#1B1B1B;
-								border-color:#222222 #151515 #151515 #222222; }
-	#alreadyalive .icon { background-position:-1700px 0; }
-	li#alreadyalive .icon { background-position:-1021px 0; }
+	#parrott .icon { background-position:-2000px 0; }
+	li#parrott .icon { background-position:-1201px 0; }
 #futora { background:#677074;
 								border-color:#777E81 #4A5255 #4A5255 #777E81; }
-	#futora .icon { background-position:-1700px 0; }
-	li#futora .icon { background-position:-1021px 0; }
+	#futora .icon { background-position:-2100px 0; }
+	li#futora .icon { background-position:-1261px 0; }
+li#alreadyalive { background:#1B1B1B;
+								border-color:#222222 #151515 #151515 #222222; }
+	#alreadyalive .icon { background-position:-2200px 0; }
+	li#alreadyalive .icon { background-position:-1321px 0; }
 
 
 /*
