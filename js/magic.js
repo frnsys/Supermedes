@@ -1324,7 +1324,6 @@ $(function() {
                     alreadyalive = [];
 
 			for (var i=0;i<o_start.length;i++) {
-				var o = paper.path( o_start[i] ).attr( attributes );
                 var o = paper.circle(
                     o_start[i][0],
                     o_start[i][1],
