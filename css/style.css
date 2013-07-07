@@ -425,6 +425,8 @@ h6 {
 	font-size:0.9em;
 	background:#222;
 	position:absolute;
+    height:100%;
+    overflow-y:scroll;
 }
 
 .back, .back-to-main {
@@ -443,7 +445,7 @@ h6 {
 	cursor:pointer;
 	opacity:0.8;
 
-	position:absolute;
+	position:fixed;
 	z-index:1000;
 	top:0;
 	left:0;
@@ -502,7 +504,6 @@ h6 {
 		}
 
 .detail {
-	overflow:hidden;
 	max-width:1000px;
 	width:100%;
 	margin:0 auto;
@@ -523,8 +524,6 @@ h6 {
 	text-align:center;
 	float:left;
 	width:800px;
-	height:100%;
-	position:fixed;
 }
 	.stage img {
 		max-width:100%;
@@ -557,10 +556,7 @@ h6 {
 	}
 	figure {
 		padding:4em 0;
-		position:absolute;
-		height:100%;
 		width:100%;
-		top:0%;
 	}
 
 .text h2 {

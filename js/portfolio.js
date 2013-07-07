@@ -72,26 +72,12 @@ $(function() {
 		});
 	});
 
-	// Figure sliding
-	$('.up').live('click', function() {
-			slide( $(this), false );
-	});
-	$('.down').live('click', function() {
-			slide( $(this), true );
-	});
-
 	// Key bindings
 	$(document).keydown(function(e){
-    if (e.keyCode == 38) { 
-    	$('.active .up').click();
-      return false;
-    } else if ( e.keyCode == 40 ) {
-    	$('.active .down').click();
-    	return false;
-    } else if ( e.keyCode == 37 ) {
-    	$('.active .back').click();
-    	return false;
-    }
+        if ( e.keyCode == 37 ) {
+            $('.active .back').click();
+            return false;
+        }
 	});
 
 	// Loading animation
@@ -145,7 +131,6 @@ $(function() {
  */
 
 if ( $('.page').length !== 0 ) {
-	spawnControls( $('.page') );
 	$('.page').addClass('active');
 }
 
@@ -167,65 +152,6 @@ if ( $('.page').length !== 0 ) {
 
 			})
 			.prepend('<div class="back">back to supermedes</div>');
-
-		spawnControls( $project );
-	}
-
-	// Set up sliding if there are multiple figures
-	function spawnControls( $project ) {
-		figures = $project.find('figure').length;
-		if ( figures > 1 || $(window).height() <= 480 ) {
-			$project.find('.info').append( '\
-				<ul class="paging">\
-					<li class="up"></li>\
-					<li class="counter">\
-						<span class="current">1</span> / \
-						<span class="total"></span>\
-					</li>\
-					<li class="down"></li>\
-				</ul>\
-			' );
-
-			$project.find('.total').html( figures );
-			$project.find('figure').css('top','100%').eq(0).css('top','0%');
-		}
-	}
-
-	function slide( $el, reverse ) {
-		var dir = reverse ? '-100' : '100',
-				$figures = $el.closest('.detail').find('.stage figure'),
-				figures = $figures.length;
-
-		// Slide up old
-		$figures.eq(index).animate({
-				top: dir + '%'
-			}, 400, function() {
-				$(this).css('top', -dir + '%');
-			});
-
-		// Increment index
-		if ( reverse ) {
-			if ( index > 0 ) {
-				index--;
-			} else {
-				index = figures - 1;
-			}
-		} else {
-			if ( index < figures - 1 ) {
-				index++;
-			} else {
-				index = 0;
-			}
-		}
-
-		// Update counter
-		var num = index == 0 ? 1 : figures - index + 1;
-		$el.closest('.detail').find('.current').html( num );
-
-		// Slide up new
-		$figures.eq(index).css('top', -dir + '%').animate({
-			top: '0%'
-		}, 400);
 	}
 
 	function positionLoader() {
