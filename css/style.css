@@ -169,13 +169,14 @@ h4 {
 header {
 	padding:3em 2em 4em 2em;
 	text-align:center;
-    background:#DDF1FE;
+    background: #f8f8f8;
 	max-width:none;
     color:#111;
 }
 header h1 {
     font-size: 2.8em;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+    font-weight: normal;
 }
 
 .pillar {
