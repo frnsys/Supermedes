@@ -214,8 +214,9 @@ header h1 {
 	font-family:'Gibson';
 	font-size:1em;
 	text-transform:uppercase;
-	margin:1em 0 0 0;
 	display:block;
+    margin: 0 0 1em 0;
+    color: rgba(0,0,0,0.3);
 }
 .blurb {
 	margin:1em 0 2em 0;
