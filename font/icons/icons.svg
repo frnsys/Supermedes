@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-17: Created.
+-->
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20120731 at Tue Sep 17 14:50:19 2013
+ By Francis Tseng
+Created by Francis Tseng with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="fontcustom" horiz-adv-x="511" >
+  <font-face 
+    font-family="fontcustom"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -63 511 447"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+F100-F102"
+  />
+    <missing-glyph />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" horiz-adv-x="508" 
+d="M508 192c0 -141 -113 -254 -254 -254c-140 0 -254 113 -254 254c0 140 114 254 254 254c141 0 254 -114 254 -254zM318 -15c87 29 150 111 150 207c0 118 -96 214 -214 214s-214 -96 -214 -214c0 -96 63 -178 151 -207v41c-63 -14 -76 29 -76 29c-10 26 -24 32 -24 32
+c-20 14 1 14 1 14c22 -1 34 -23 34 -23c21 -36 55 -22 66 -17c3 16 16 19 20 20c-56 6 -117 26 -117 124c0 27 9 50 25 67c-2 6 -11 31 3 66c0 0 21 6 69 -26c20 5 41 9 62 9s43 -4 63 -9c48 32 68 26 68 26c14 -35 6 -60 3 -66c16 -17 26 -40 26 -67
+c0 -98 -61 -118 -117 -124c10 -7 21 -20 21 -45v-51v0z" />
+    <glyph glyph-name="uniF101" unicode="&#xf101;" 
+d="M8 -63v341h106v-341h-106zM61 447c34 0 62 -27 62 -61s-28 -62 -62 -62s-61 28 -61 62s27 61 61 61v0zM181 278h101v-47h2c14 27 49 55 100 55c107 0 127 -70 127 -162v-187h-106v166c0 40 -1 90 -55 90c-55 0 -64 -43 -64 -87v-169h-105v341z" />
+    <glyph glyph-name="uniF102" unicode="&#xf102;" 
+d="M450 194c-42 -169 -321 -240 -450 -65c49 -47 135 -51 189 5c-32 -5 -54 27 -15 44c-35 -4 -55 15 -63 31c8 9 17 12 35 13c-39 9 -54 28 -58 51c11 3 25 5 32 4c-34 18 -46 44 -44 64c60 -22 99 -40 131 -57c11 -6 25 -17 39 -31c18 49 41 98 80 123
+c-1 -6 -4 -11 -8 -15c11 10 25 17 40 19c-2 -11 -17 -17 -27 -21c7 2 46 20 50 10c5 -11 -27 -16 -32 -18c-4 -1 -8 -3 -12 -5c48 5 95 -35 109 -85c1 -4 1 -7 2 -11c18 -7 51 0 61 6c-7 -18 -27 -31 -56 -33c14 -6 40 -9 58 -6c-11 -12 -30 -23 -61 -23z" />
+  </font>
+</defs></svg>
