@@ -85,7 +85,7 @@ body {
 	font-family:'prenton', 'Gibson', Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	color:#fff;
-	background:#101010;
+    background:#1B1F2C;
 	min-width:320px;
 
 	/* webkit fix */
@@ -204,12 +204,6 @@ header h1 {
 		right:0;
 	}
 
-.sword {
-	display:block;
-	margin:0 auto;
-	width:120px;
-}
-
 .subtitle {
 	font-family:'Gibson';
 	font-size:1em;
@@ -308,10 +302,6 @@ header h1 {
 	#projects h4 {
 		color:#111;
 	}
-
-#work {
-	background:#1B1F2C;
-}
 
 h5 {
 	display:block;
